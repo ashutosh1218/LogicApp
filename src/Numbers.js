@@ -1,0 +1,40 @@
+const Numbers=[
+    {
+        key:1,
+        num:"6",
+        name:"card",
+        type:"num"
+    },
+    {
+        key:2,
+        num:"8",
+        name:"card",
+        type:"num"
+    },
+    {
+        key:3,
+        num:"3",
+        name:"card",
+        type:"num"
+    },
+    {
+        key:4,
+        num:"4",
+        name:"card",
+        type:"num"
+    },
+    {
+        key:5,
+        num:"3",
+        name:"card",
+        type:"num"
+    },
+    {
+        key:6,
+        num:"9",
+        name:"card",
+        type:"num"
+    }
+
+]
+export default Numbers;

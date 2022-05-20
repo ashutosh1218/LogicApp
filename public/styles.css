@@ -1,0 +1,102 @@
+html {
+    font-family: "Montserrat", sans-serif;
+  }
+  body {
+    background: #eee;
+    padding: 0 16px;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+  }
+  .card{
+    align-items: center;
+    background-color: #9acd32;
+    box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+    cursor: move;
+    display: flex;
+    font-size: larger;
+   
+    
+    flex-grow: 0;
+    flex-shrink: 0;
+    font-weight: bolder;
+    height: 140px;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    width: 140px;
+  }
+  .operator{
+    align-items: center;
+    background-color: brown;
+    box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+    cursor: move;
+    font-size: larger;
+    display: flex;
+    color: white;
+    flex-grow: 0;
+    flex-shrink: 0;
+    font-weight: bolder;
+    height: 140px;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    width: 140px;
+  }
+  .comparater{
+    align-items: center;
+    background-color: brown;
+    box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+    
+    
+    display: flex;
+    color: white;
+    flex-grow: 0;
+    flex-shrink: 0;
+    font-weight: bolder;
+    font-size: larger;
+    height: 140px;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    width: 140px;
+  }
+  .Box{
+    display: flex;
+    overflow-x: scroll;
+    margin:5px;
+  }
+  .result{
+    align-items: center;
+    border: 5px dashed grey;
+    display: flex;
+    font-size:larger;
+    height: 180px;  overflow-x: scroll;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+  .number{
+    border-style:outset;
+    /* padding:3px; */
+  }
+  .oper{
+    border-style:inset;
+    /* padding:3px; */
+  }
+  .evaluate-btn{
+    background-color: #6495ed;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: larger;
+    cursor: pointer;
+    font-size:30px;
+    font-weight: bolder;
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+  }
+  .deleteBtn{
+    margin-top: 5px;
+    margin-right:5px;
+    padding-top: 5px;
+  }
+  
