@@ -1,4 +1,4 @@
-#Link to the hosted website
+# Link to the hosted website
 https://golden-cheesecake-00faba.netlify.app/
 
 # Getting Started with Create React App
