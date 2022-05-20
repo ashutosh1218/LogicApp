@@ -13,7 +13,7 @@ export default function Card(props) {
     return (
         <div
             // onClick={props.addDiv(props.id, props.type)}
-            ref={drag}
+            ref={props.drag && drag}
             className={props.name}
             draggable={props.drag}
             style={{ border: isDragging ? "5px solid pink" : "0px" }}
