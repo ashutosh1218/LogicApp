@@ -25,13 +25,19 @@ const Numbers=[
     },
     {
         key:5,
-        num:"3",
+        num:"2",
         name:"card",
         type:"num"
     },
     {
         key:6,
         num:"9",
+        name:"card",
+        type:"num"
+    }
+     {
+        key:7,
+        num:"5",
         name:"card",
         type:"num"
     }
