@@ -33,12 +33,14 @@ function App() {
       // const numList = nums.filter((numb) => numb.key === item);
       const numList = Numbers.filter((numb) => numb.key === item);
       setBoard((board) => [...board, numList[0]]);
+      console.log(nums.length)
     }
     else if (type === 'sym') {
 
       const symbols = Symbols.filter((num) => num.key === item);
       setBoard((board) => [...board, symbols[0]]);
     }
+    if(isOver) console.log("1")
   };
 
   function inputInt() {
@@ -176,7 +178,6 @@ function App() {
       <div className="Box result" ref={drop}>
 
         {board.map((number) => {
-          {/* console.log(number) */ }
           return <Card
             key={number.key}
             id={number.key}
