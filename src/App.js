@@ -191,7 +191,7 @@ function App() {
         })}
       </div>
       <form action="">
-        <button className='evaluate-btn' type='submit' onClick={calculate}>Evaluate</button>
+        <button className='evaluate-btn' type='submit' onClick={calculate}>Double Click To Evaluate</button>
       </form>
     </div>
   );
