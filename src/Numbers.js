@@ -40,6 +40,24 @@ const Numbers=[
         num:"5",
         name:"card",
         type:"num"
+    },
+     {
+        key:8,
+        num:"54,
+        name:"card",
+        type:"num"
+    },
+     {
+        key:9,
+        num:"1",
+        name:"card",
+        type:"num"
+    },
+     {
+        key:10,
+        num:"15",
+        name:"card",
+        type:"num"
     }
 
 ]
