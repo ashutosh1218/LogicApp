@@ -43,7 +43,7 @@ const Numbers=[
     },
      {
         key:8,
-        num:"54,
+        num:"54",
         name:"card",
         type:"num"
     },
